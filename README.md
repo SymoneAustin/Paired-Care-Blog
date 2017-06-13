@@ -1,2 +1,2 @@
 # Paired-Care-Blog
-A blog created with Meteor.JS
+A blog created with Meteor.js
