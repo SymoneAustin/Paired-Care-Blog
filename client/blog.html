@@ -1,0 +1,23 @@
+<template name="blog">
+
+
+    <main>
+    <div id="home">
+    <div class="container"> 
+    <div class="row">
+    <div class="col-xs-12">    
+    <h1>Blog Posts</h1>
+    {{#each posts}}
+  <div>
+    <a href="/blog/{{slug}}">{{title}}</a>
+  </div>
+{{/each}}
+    <a href="/">Go Back</a>    
+    </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+
+</template>
